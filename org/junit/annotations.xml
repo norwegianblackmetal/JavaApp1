@@ -1,7 +1,0 @@
-<root>
-    <item name='org.junit.Assert void assertEquals(double, double)'>
-        <annotation name='org.jetbrains.annotations.Contract'>
-            <val val="&quot;_,_-&gt;fail&quot;"/>
-        </annotation>
-    </item>
-</root>
