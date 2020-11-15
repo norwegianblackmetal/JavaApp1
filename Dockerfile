@@ -1,4 +1,4 @@
-FROM openjdk:8-jdk-alpine3.7
-COPY Main.java .
-RUN javac Main.java
-RUN java Main 
+FROM python:3.7.9-slim
+RUN pip install flask
+COPY . .
+CMD python main.py
