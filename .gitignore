@@ -3,7 +3,7 @@
 .idea*
 target
 .vscode
-
+.node_modules
 
 # Ignore Gradle project-specific cache directory
 .gradle
