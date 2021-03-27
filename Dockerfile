@@ -1,4 +1,4 @@
-FROM python:3.7.9-slim
-RUN pip install flask
+FROM node:15.12.0
 COPY . .
-CMD python main.py
+RUN npm install
+CMD node server.js
